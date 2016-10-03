@@ -1,1 +1,0 @@
-﻿Get-ADUser -Filter * -SearchBase "OU=BostonGroup,DC=COR-FS,DC=com" -Properties * | Select-Object Name,Mail,Title | Export-Csv '\\corp-fs\techservices\Kirks Temp\JobTitleBoston.csv'

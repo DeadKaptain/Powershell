@@ -1,4 +1,0 @@
-#To establish the .net framework installed on host machine
-
-Get-ChildItem 'HKLM:\software\microsoft\net framework setup\NDP' -recurse | Get-ItemProperty -name V
-ersion -EA 0 | Where { $_.PSChildName -match '^(?!S)\p{L}'} | select Pschildname, Version

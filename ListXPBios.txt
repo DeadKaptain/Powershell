@@ -1,4 +1,0 @@
- 
-#script to get the bios details on a list of XP machines from AD to establish if the machine is a VM or not
-
-get-WmiObject -class win32_bios -ComputerName (Get-ADComputer -filter 'operatingsystem -like "*XP*"' | select -ExpandProperty name)
