@@ -1,0 +1,1 @@
+﻿Copy-Item -Path "\\saldemo3\c$\users\Administrator\Documents\Virtual Machines\SAL-DEMO-VM" -Destination "\\salo-lpt008\c$\Users\Public\Documents\Shared Virtual Machines" -Recurse -Verbose
